@@ -23,7 +23,7 @@ func main() {
 		categorie = "Maigreur"
 	} else if imc < IMCNormal {
 		categorie = "Normal"
-	} else if imc < IMCSurpoids {
+	} else if tu < IMCSurpoids {
 		categorie = "Surpoids"
 	} else {
 		categorie = "Obésité"
